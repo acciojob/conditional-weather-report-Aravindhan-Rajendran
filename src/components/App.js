@@ -8,8 +8,7 @@ function App() {
     // Example weather data
     const weatherInput = [
       { temperature: 25, conditions: "Sunny" },
-      { temperature: 15, conditions: "Cloudy" },
-      { temperature: 30, conditions: "Hot" }
+      { temperature: 15, conditions: "Cloudy" }
     ];
     setWeatherData(weatherInput);
   }, []);
