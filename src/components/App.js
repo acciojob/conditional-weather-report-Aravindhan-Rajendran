@@ -7,7 +7,7 @@ function App() {
   useEffect(() => {
     // Example weather data
     const weatherInput = [
-      { temperature: 25, conditions: "Sunny" }
+      { conditions: "Sunny" }
     ];
     setWeatherData(weatherInput);
   }, []);
