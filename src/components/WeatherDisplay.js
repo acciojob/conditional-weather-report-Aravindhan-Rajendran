@@ -1,6 +1,8 @@
+import React from 'react';
+
 function WeatherDisplay({ weather }) {
   const { Temperature, Conditions } = weather;
-  const color = Temperature > 20 ? 'rgb(255, 0, 0)' : 'blue'; // Using the same color from the test case
+  const color = Temperature > 20 ? 'rgb(255, 0, 0)' : 'blue'; // Conditional color based on temperature
 
   return (
     <div>
@@ -9,3 +11,5 @@ function WeatherDisplay({ weather }) {
     </div>
   );
 }
+
+export default WeatherDisplay;
