@@ -2,12 +2,12 @@ import React from 'react';
 
 function WeatherDisplay({ weather }) {
   const { temperature, conditions } = weather;
-  const color = temperature > 20 ? 'rgb(255, 0, 0)' : 'blue'; // Conditional color based on temperature
+  const color = temperature > 20 ? 'rgb(255, 0, 0)' : 'blue'; // Using the same color from the test case
 
   return (
     <div>
-      <span style={{ color }}>Temperature: {temperature}</span>
-      <span style={{ color, display: 'block' }}>Conditions: {conditions}</span>
+      <p style={{ color }}>Temperature: {temperature}</p>
+      <span style={{ color }}>Conditions: {conditions}</span>
     </div>
   );
 }
